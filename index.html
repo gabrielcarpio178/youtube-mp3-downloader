@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>YouTube MP3 Downloader</title>
+</head>
+<body>
+    <main class="main-container">
+        <h1 class="header-title">
+            Youtube to MP3
+        </h1>
+        <form class="form-content" id="url_form">
+            <input type="text" id="url" class="url-input" placeholder="URL">
+            <button type="submit" class="button-3" role="button">Convert</button>
+        </form>
+        <section class="result-container">  
+                 
+            <section class="result-convert">
+                <p id="message"></p>    
+                <div class="loader" id="loader"></div>
+                <div class="result-display" id="result_display">                                               
+                    <div class="result-img">
+                        <img src="" alt="result-img" class="result-image" id="image">
+                        <div class="title-result" id="title">
+                    
+                        </div>                
+                    </div>
+               </div>
+            </section>
+            <a href="" id="download" class="button-3 result-display btn-download">Download</a>
+        </section>
+    </main>
+
+<script src="index.js"></script>    
+</body>
+</html>
